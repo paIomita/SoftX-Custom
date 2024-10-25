@@ -1312,7 +1312,7 @@ body .cozy_f9f2ca.selected_d5deea:not(.replying_d5deea), body .cozy_f9f2ca:not(.
 body .cozy_f9f2ca.hasThread-2k82W0::after,
 #app-mount .cozy_f9f2ca.hasThread-2k82W0::after {
   left: calc(var(--chat-avatar-size) - 3px);
-  width: calc(var(--chat-avatar-size) - 20px);
+  width: calc(var(--chat-avatar-size) - 32px);
   border-color: rgba(255, 255, 255, 0.15);
   bottom: 40px;
 }
