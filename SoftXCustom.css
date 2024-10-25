@@ -1273,6 +1273,7 @@ body .cozy_f9f2ca .username_f9f2ca,
 #app-mount .cozy_f9f2ca .username_f9f2ca {
   text-shadow: 0 0 calc(var(--chat-glow-intensity) * 10px) currentColor;
   line-height: normal;
+  margin-left: 10px;
 }
 body .cozy_f9f2ca .messageContent_f9f2ca pre,
 #app-mount .cozy_f9f2ca .messageContent_f9f2ca pre {
