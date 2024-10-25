@@ -1274,6 +1274,7 @@ body .cozy_f9f2ca .username_f9f2ca,
   text-shadow: 0 0 calc(var(--chat-glow-intensity) * 10px) currentColor;
   line-height: normal;
   margin-left: 10px;
+  padding-left: 10px;
 }
 body .cozy_f9f2ca .messageContent_f9f2ca pre,
 #app-mount .cozy_f9f2ca .messageContent_f9f2ca pre {
@@ -1886,6 +1887,7 @@ body .container_d6cb89,
   opacity: 0.2;
   z-index: 0;
   pointer-events: none;
+  margin-left: 10px;
 }
 #app-mount .member_a31c43.selected_d808b0 .username_d272d6::after {
   content: "";
@@ -1897,6 +1899,7 @@ body .container_d6cb89,
   background: currentColor;
   box-shadow: 0 0 calc(var(--members-glow-intensity) * 15px) currentColor;
   pointer-events: none;
+  margin-left: 10px;
 }
 #app-mount .member_a31c43.selected_d808b0 .activityText_a31c43 {
   color: #fff;
