@@ -1256,13 +1256,13 @@ body .cozy_f9f2ca .header_f9f2ca,
 }
 body .cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca),
 #app-mount .cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca) {
-  display: block; /* Change from var(--chat-bubble-display) to block */
+  display: block; /* Keep as block */
   margin: 0;
-  background: transparent; /* Ensure background is transparent */
-  padding: 0; /* Remove padding */
-  border-radius: 0; /* Remove border radius */
+  background: transparent; /* Background remains transparent */
+  padding: 2px 0 0 4px; /* Add space: top 2px, left 4px */
+  border-radius: 0; /* No rounded corners */
   overflow: visible; /* Keep overflow visible */
-  max-width: none; /* Remove any max width restrictions */
+  max-width: none; /* Allow full width */
 }
 body .cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca) code,
 #app-mount .cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca) code {
