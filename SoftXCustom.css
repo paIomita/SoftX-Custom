@@ -1237,7 +1237,7 @@ body .wrapper_f7e168,
 }
 body .cozy_f9f2ca,
 #app-mount .cozy_f9f2ca {
-  padding-left: calc(var(--chat-avatar-size) + 26px);
+  padding-left: 0;
 }
 body .cozy_f9f2ca .avatar_f9f2ca,
 #app-mount .cozy_f9f2ca .avatar_f9f2ca {
