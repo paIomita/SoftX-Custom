@@ -1259,7 +1259,7 @@ body .cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f
   display: block; /* Keep as block */
   margin: 0;
   background: transparent; /* Background remains transparent */
-  padding-left: 32px; /* Add space to the left */
+  padding-left: 8px; /* Add space to the left */
   padding-top: 2px; /* Add a tiny bit of space at the top */
   border-radius: 0; /* No rounded corners */
   overflow: visible; /* Keep overflow visible */
