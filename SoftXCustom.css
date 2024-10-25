@@ -1256,13 +1256,13 @@ body .cozy_f9f2ca .header_f9f2ca,
 }
 body .cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca),
 #app-mount .cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca) {
-  display: block; /* Change from var(--chat-bubble-display) to block */
+  display: var(--chat-bubble-display);
   margin: 0;
-  background: transparent; /* Ensure background is transparent */
-  padding: 0; /* Remove padding */
-  border-radius: 0; /* Remove border radius */
-  overflow: visible; /* Keep overflow visible */
-  max-width: none; /* Remove any max width restrictions */
+  background: var(--chat-bubble-bg);
+  padding: var(--chat-bubble-padding);
+  border-radius: 6px;
+  overflow: visible;
+  max-width: 100%;
 }
 body .cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca) code,
 #app-mount .cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca) code {
@@ -1312,7 +1312,7 @@ body .cozy_f9f2ca.selected_d5deea:not(.replying_d5deea), body .cozy_f9f2ca:not(.
 body .cozy_f9f2ca.hasThread-2k82W0::after,
 #app-mount .cozy_f9f2ca.hasThread-2k82W0::after {
   left: calc(var(--chat-avatar-size) - 3px);
-  width: calc(var(--chat-avatar-size) - 32px);
+  width: calc(var(--chat-avatar-size) - 13px);
   border-color: rgba(255, 255, 255, 0.15);
   bottom: 40px;
 }
